@@ -1,0 +1,21 @@
+{
+  "name": "supremebot",
+  "version": "1.0.0",
+  "description": "supremebot",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "extraResources": "server",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "^20.15.1",
+    "hostile": "^1.3.2",
+    "tree-kill": "^1.2.0",
+    "yarn": "^1.7.0"
+  }
+ 
+}

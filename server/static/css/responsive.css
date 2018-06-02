@@ -1,0 +1,333 @@
+
+@media only screen and (max-height: 700px), only screen and (max-device-height: 700px) {
+
+
+.item_search_box{
+	bottom: 0px;
+}
+
+}
+@media only screen and (max-height: 740px), only screen and (max-device-height: 740px) {
+.tast_page_down, .proxies_page_down{
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	padding: 100px 0px 0px;
+}
+.page_main {
+    min-height: 100px;
+    display: block;
+    padding: 150px 40px 50px;
+}
+.tast_editor_down{
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	padding: 100px 0px 0px;
+	text-align: center;
+
+}
+
+}
+@media only screen and (max-width: 1300px), only screen and (max-device-width: 1300px) {
+
+.task_left_btns button {
+    width: 140px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.task_right_btns button {
+    height: 60px;
+    margin-top: 10px;
+}
+
+
+}
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+.profile_form {
+    padding: 0px;
+}
+	
+}
+
+
+
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+
+.item_page_item{
+    height: 180px;
+}
+.item_page_item a {
+    line-height: 160px;
+    font-size: 24px;
+}
+.tast_page_down {
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	padding: 100px 0px 0px;
+}
+.page_main {
+    min-height: 100px;
+    display: block;
+    padding: 150px 30px 50px;
+}
+.task_table_header td {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 0px;
+}
+.task_table_content td {
+    padding: 5px 0px;
+    font-size: 13px;
+}
+.tast_editor_down{
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	padding: 100px 0px 0px;
+	text-align: center;
+
+}
+
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+	.page_area {
+		display: block;
+	}
+	.task_left_btns, .task_right_btns{
+		text-align: center;
+	}
+	.task_table_header{
+		display: none;
+	}
+	.tasks_table td{
+		display: block;
+		position: relative;
+		padding-left: 100px;
+	}
+	.proxies_table_content td {
+		padding: 5px 0px;
+		font-size: 14px;
+		color: #5b5758;
+	}
+	.task_table_content{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-bottom: 2px solid #fd203f;
+		display: block;
+	}
+	.task_table_content td:first-child:before{
+		content: "Task";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.task_table_content td:nth-child(2):before{
+		content: "Profile";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.task_table_content td:nth-child(3):before{
+		content: "Size";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.task_table_content td:nth-child(4):before{
+		content: "Color";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.task_table_content td:nth-child(5):before{
+		content: "Product";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.task_table_content td:nth-child(6):before{
+		content: "Progress";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.task_table_content td:nth-child(7):before{
+		content: "Actions";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.page_area table tr td:last-child {
+		width: 100%;
+	}
+	.proxies_table td {
+		display: block;
+		position: relative;
+		padding-left: 100px;
+	}
+	.proxies_table_content{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-bottom: 2px solid #fd203f;
+		display: block;
+		
+	}
+	.proxies_table_header{
+		display: none;
+	}
+	.proxies_table_content td:first-child:before{
+		content: "Proxy";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.proxies_table_content td:nth-child(2):before{
+		content: "Status";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.proxies_table_content td:nth-child(3):before{
+		content: "Speed";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.proxies_table_content td:nth-child(4):before{
+		content: "Actions";
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		font-size: 14px;
+		color: #fa1f3f;
+		font-weight: 600;
+	}
+	.proxies_down_left, .proxies_down_right{
+		text-align: center;
+	}
+	.proxies_down_left .form-group {
+		display: inline-block;
+		margin: 0;
+	}
+	
+
+}
+
+
+
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+.iteem_page_headding h3 {
+    font-size: 24px;
+}
+.item_cros_box{
+	top: 15px;
+	right: 15px;
+	width: 30px;
+	height: 30px;
+}
+.item_cros_box button{
+	width: 30px;
+	height: 30px;
+}
+.item_cros_box button img{
+	width: 10px;
+}
+.item_page_main {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0px 0px 60px;
+}
+.item_page_item {
+    height: 100px;
+}
+.item_page_item a {
+	line-height: 80px;
+	font-size: 26px;
+}	
+.iteem_page_headding {
+    padding-bottom: 20px;
+}
+
+.page_main {
+    padding: 200px 30px 50px;
+}
+.page_headding {
+    top: 110px;
+}	
+	
+.side_nav {
+	width: 120px;
+    right: 50%;
+	margin-right: -60px;
+}
+.side_nav ul li {
+	width: 50px;
+	height: 50px;
+    border-radius: 50px;
+	float: left;
+	margin-left: 10px;
+}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+
+
+
+
+
+}
